@@ -1,0 +1,6423 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=152;
+	};
+	class Camera
+	{
+		pos[]={-311.03564,20,237.89844};
+		dir[]={0.82631189,-0.17364821,-0.53577912};
+		up[]={0.14570072,0.98480767,-0.094472244};
+		aside[]={-0.54404444,-7.4505806e-009,-0.83905888};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Characters_F",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Modules_F_Marta"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=3;
+		class Item0
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted Modules";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+	};
+};
+randomSeed=6848652;
+class ScenarioData
+{
+	author="Tajin";
+	saving=0;
+	respawnDialog=0;
+	disabledAI=1;
+	respawn=3;
+	respawnDelay=3;
+	class Header
+	{
+		gameType="Coop";
+		minPlayers=1;
+		maxPlayers=30;
+	};
+	wreckManagerMode=1;
+	corpseManagerMode=1;
+	corpseLimit=30;
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=3;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="MenuPosition";
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Counter";
+							};
+						};
+						class Item2
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Spectator";
+							};
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="ReviveRequiredTrait";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute2
+		{
+			property="ReviveMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute3
+		{
+			property="ReviveRequiredItemsFakConsumed";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"BOOL"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute4
+		{
+			property="SharedObjectives";
+			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=2;
+				};
+			};
+		};
+		class Attribute5
+		{
+			property="ReviveMedicSpeedMultiplier";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=2;
+				};
+			};
+		};
+		class Attribute6
+		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute7
+		{
+			property="ReviveForceRespawnDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=3;
+				};
+			};
+		};
+		class Attribute8
+		{
+			property="ReviveBleedOutDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=120;
+				};
+			};
+		};
+		class Attribute9
+		{
+			property="ReviveDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=6;
+				};
+			};
+		};
+		class Attribute10
+		{
+			property="ReviveUnconsciousStateMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute11
+		{
+			property="ReviveRequiredItems";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		nAttributes=12;
+	};
+	class Category1
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		briefingName="GD ZEUS template";
+		overviewText="GD dynamic zeus template";
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2030;
+		month=0;
+		day=0;
+		hour=0;
+		minute=0;
+		startFogDecay=0.001;
+		forecastFogDecay=0.001;
+	};
+	class Entities
+	{
+		items=17;
+		class Item0
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.0807588,-138.71159,25.944576};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						name="civ1";
+						description="Alpha 1";
+						isPlayer=1;
+					};
+					id=1;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.068759,4.1931353,23.760578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						name="civ2";
+						description="Alpha 2";
+						isPlayable=1;
+					};
+					id=3;
+					type="C_man_polo_1_F";
+					atlOffset=143.22302;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5.2507586,-139.25259,23.760578};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="civ3";
+						description="Alpha 3";
+						isPlayable=1;
+					};
+					id=7;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6.8737588,-138.97615,23.736576};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="civ4";
+						description="Alpha 4";
+						isPlayable=1;
+					};
+					id=9;
+					type="C_man_polo_1_F";
+					atlOffset=0.40200806;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10.07276,-139.57155,23.747578};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="civ5";
+						description="Alpha 5";
+						isPlayable=1;
+					};
+					id=11;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11.663759,3.6486099,23.728577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="civ6";
+						description="Alpha 6";
+						isPlayable=1;
+					};
+					id=13;
+					type="C_man_polo_1_F";
+					atlOffset=143.29602;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14.71176,-139.68065,23.723577};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="civ7";
+						description="Alpha 7";
+						isPlayable=1;
+					};
+					id=14;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16.28476,-139.65118,23.711578};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="civ8";
+						description="Alpha 8";
+						isPlayable=1;
+					};
+					id=15;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={19.418758,-139.19167,23.723577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="civ9";
+						description="Alpha 9";
+						isPlayable=1;
+					};
+					id=16;
+					type="C_man_polo_1_F";
+					atlOffset=0.5940094;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={21.028759,-139.40016,23.723577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="civ10";
+						description="Alpha 10";
+						isPlayable=1;
+					};
+					id=17;
+					type="C_man_polo_1_F";
+					atlOffset=0.4460144;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+			atlOffset=1.5258789e-005;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.217758,-139.62701,25.891577};
+					};
+					side="Civilian";
+					flags=7;
+					class Attributes
+					{
+						name="civ11";
+						description="Bravo 1";
+						isPlayable=1;
+					};
+					id=19;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.205759,3.4059494,23.707577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						name="civ12";
+						description="Bravo 2";
+						isPlayable=1;
+					};
+					id=20;
+					type="C_man_polo_1_F";
+					atlOffset=143.22302;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={27.387758,-139.97708,23.707577};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="civ13";
+						description="Bravo 3";
+						isPlayable=1;
+					};
+					id=21;
+					type="C_man_polo_1_F";
+					atlOffset=0.016021729;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={29.010757,-139.72176,23.683578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="civ14";
+						description="Bravo 4";
+						isPlayable=1;
+					};
+					id=22;
+					type="C_man_polo_1_F";
+					atlOffset=0.41801453;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={32.209759,-140.49666,23.694576};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="civ15";
+						description="Bravo 5";
+						isPlayable=1;
+					};
+					id=23;
+					type="C_man_polo_1_F";
+					atlOffset=0.024017334;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={33.800758,2.5797164,23.675577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="civ16";
+						description="Bravo 6";
+						isPlayable=1;
+					};
+					id=24;
+					type="C_man_polo_1_F";
+					atlOffset=143.312;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={36.848755,-141.06638,23.670578};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="civ17";
+						description="Bravo 7";
+						isPlayable=1;
+					};
+					id=25;
+					type="C_man_polo_1_F";
+					atlOffset=0.0080108643;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={38.421761,-141.1563,23.658577};
+					};
+					side="Civilian";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="civ18";
+						description="Bravo 8";
+						isPlayable=1;
+					};
+					id=26;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={41.555756,-140.79059,23.670578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="civ19";
+						description="Bravo 9";
+						isPlayable=1;
+					};
+					id=27;
+					type="C_man_polo_1_F";
+					atlOffset=0.58300781;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={43.165756,-141.14966,23.670578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="civ20";
+						description="Bravo 10";
+						isPlayable=1;
+					};
+					id=28;
+					type="C_man_polo_1_F";
+					atlOffset=0.39701843;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=18;
+			atlOffset=1.5258789e-005;
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.21476,-140.55104,25.962578};
+					};
+					side="Civilian";
+					flags=3;
+					class Attributes
+					{
+						name="civ21";
+						description="Charlie 1";
+						isPlayable=1;
+					};
+					id=30;
+					type="C_man_polo_1_F";
+					atlOffset=0.95600891;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.202759,2.22733,23.778578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						name="civ22";
+						description="Charlie 2";
+						isPlayable=1;
+					};
+					id=31;
+					type="C_man_polo_1_F";
+					atlOffset=144.17902;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={49.384758,-141.56834,23.778578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="civ23";
+						description="Charlie 3";
+						isPlayable=1;
+					};
+					id=32;
+					type="C_man_polo_1_F";
+					atlOffset=0.97201538;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={51.007759,-141.50914,23.754578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="civ24";
+						description="Charlie 4";
+						isPlayable=1;
+					};
+					id=33;
+					type="C_man_polo_1_F";
+					atlOffset=1.3770142;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={54.206757,-142.58865,23.765577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="civ25";
+						description="Charlie 5";
+						isPlayable=1;
+					};
+					id=34;
+					type="C_man_polo_1_F";
+					atlOffset=0.96401978;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={55.79776,0.35448146,23.746578};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="civ26";
+						description="Charlie 6";
+						isPlayable=1;
+					};
+					id=35;
+					type="C_man_polo_1_F";
+					atlOffset=144.25201;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={58.845757,-143.05536,23.741577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="civ27";
+						description="Charlie 7";
+						isPlayable=1;
+					};
+					id=36;
+					type="C_man_polo_1_F";
+					atlOffset=0.99002075;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={60.418755,-143.12614,23.729576};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="civ28";
+						description="Charlie 8";
+						isPlayable=1;
+					};
+					id=37;
+					type="C_man_polo_1_F";
+					atlOffset=0.98202515;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={63.552757,-142.6219,23.741577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="civ29";
+						description="Charlie 9";
+						isPlayable=1;
+					};
+					id=38;
+					type="C_man_polo_1_F";
+					atlOffset=1.5920258;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={65.162758,-142.77646,23.741577};
+					};
+					side="Civilian";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="civ30";
+						description="Charlie 10";
+						isPlayable=1;
+					};
+					id=39;
+					type="C_man_polo_1_F";
+					atlOffset=1.4060211;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=29;
+			atlOffset=0.95600891;
+		};
+		class Item3
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.062,-139.13715,19.195999};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						name="west1";
+						description="Alpha 1";
+						isPlayable=1;
+					};
+					id=41;
+					type="C_man_polo_1_F";
+					atlOffset=-1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.0500698,4.116231,17.011507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						name="west2";
+						description="Alpha 2";
+						isPlayable=1;
+					};
+					id=42;
+					type="C_man_polo_1_F";
+					atlOffset=143.22302;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5.2320709,-139.31631,17.011507};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="west3";
+						description="Alpha 3";
+						isPlayable=1;
+					};
+					id=43;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6.8550701,-139.00359,16.987507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="west4";
+						description="Alpha 4";
+						isPlayable=1;
+					};
+					id=44;
+					type="C_man_polo_1_F";
+					atlOffset=0.40200806;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10.05407,-139.60284,16.998507};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="west5";
+						description="Alpha 5";
+						isPlayable=1;
+					};
+					id=45;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11.645069,3.5801589,16.979507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="west6";
+						description="Alpha 6";
+						isPlayable=1;
+					};
+					id=46;
+					type="C_man_polo_1_F";
+					atlOffset=143.29602;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14.693069,-140.01767,16.974506};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="west7";
+						description="Alpha 7";
+						isPlayable=1;
+					};
+					id=47;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16.266071,-140.19951,16.962507};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="west8";
+						description="Alpha 8";
+						isPlayable=1;
+					};
+					id=48;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={19.40007,-139.96393,16.974506};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="west9";
+						description="Alpha 9";
+						isPlayable=1;
+					};
+					id=49;
+					type="C_man_polo_1_F";
+					atlOffset=0.66775513;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={21.010071,-140.0442,16.974506};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="west10";
+						description="Alpha 10";
+						isPlayable=1;
+					};
+					id=50;
+					type="C_man_polo_1_F";
+					atlOffset=0.51976013;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=40;
+			atlOffset=-1.5258789e-005;
+		};
+		class Item4
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.19907,-140.46278,19.142508};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						name="west11";
+						description="Bravo 1";
+						isPlayable=1;
+					};
+					id=52;
+					type="C_man_polo_1_F";
+					atlOffset=0.031265259;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.187071,2.5868728,16.958508};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						name="west12";
+						description="Bravo 2";
+						isPlayable=1;
+					};
+					id=53;
+					type="C_man_polo_1_F";
+					atlOffset=143.25427;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={27.36907,-140.97086,16.958508};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="west13";
+						description="Bravo 3";
+						isPlayable=1;
+					};
+					id=54;
+					type="C_man_polo_1_F";
+					atlOffset=0.047897339;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={28.992069,-140.80492,16.934507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="west14";
+						description="Bravo 4";
+						isPlayable=1;
+					};
+					id=55;
+					type="C_man_polo_1_F";
+					atlOffset=0.44989014;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={32.191071,-141.76515,16.945507};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="west15";
+						description="Bravo 5";
+						isPlayable=1;
+					};
+					id=56;
+					type="C_man_polo_1_F";
+					atlOffset=0.021514893;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={33.782066,1.2155654,16.926506};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="west16";
+						description="Bravo 6";
+						isPlayable=1;
+					};
+					id=57;
+					type="C_man_polo_1_F";
+					atlOffset=143.30893;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={36.83007,-142.51157,16.921507};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="west17";
+						description="Bravo 7";
+						isPlayable=1;
+					};
+					id=58;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={38.403069,-142.51004,16.909506};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="west18";
+						description="Bravo 8";
+						isPlayable=1;
+					};
+					id=59;
+					type="C_man_polo_1_F";
+					atlOffset=0.0043945313;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={41.537071,-142.10294,16.921507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="west19";
+						description="Bravo 9";
+						isPlayable=1;
+					};
+					id=60;
+					type="C_man_polo_1_F";
+					atlOffset=0.58738708;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={43.147072,-142.36572,16.921507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="west20";
+						description="Bravo 10";
+						isPlayable=1;
+					};
+					id=61;
+					type="C_man_polo_1_F";
+					atlOffset=0.40888977;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=51;
+			atlOffset=0.031265259;
+		};
+		class Item5
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.196075,-142.09401,19.213507};
+					};
+					side="West";
+					flags=3;
+					class Attributes
+					{
+						name="west21";
+						description="Charlie 1";
+						isPlayable=1;
+					};
+					id=63;
+					type="C_man_polo_1_F";
+					atlOffset=0.95225525;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.184074,0.87903285,17.029507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						name="west22";
+						description="Charlie 2";
+						isPlayable=1;
+					};
+					id=64;
+					type="C_man_polo_1_F";
+					atlOffset=144.17526;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={49.366074,-143.58589,17.029507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="west23";
+						description="Charlie 3";
+						isPlayable=1;
+					};
+					id=65;
+					type="C_man_polo_1_F";
+					atlOffset=0.96826172;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={50.989075,-144.16029,17.005507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="west24";
+						description="Charlie 4";
+						isPlayable=1;
+					};
+					id=66;
+					type="C_man_polo_1_F";
+					atlOffset=1.3538818;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={54.188072,-145.69095,17.016506};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="west25";
+						description="Charlie 5";
+						isPlayable=1;
+					};
+					id=67;
+					type="C_man_polo_1_F";
+					atlOffset=0.902771;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={55.779076,-2.8324692,16.997507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="west26";
+						description="Charlie 6";
+						isPlayable=1;
+					};
+					id=68;
+					type="C_man_polo_1_F";
+					atlOffset=144.19075;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={58.827072,-146.45544,16.992506};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="west27";
+						description="Charlie 7";
+						isPlayable=1;
+					};
+					id=69;
+					type="C_man_polo_1_F";
+					atlOffset=0.93127441;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={60.40007,-146.27959,16.980507};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="west28";
+						description="Charlie 8";
+						isPlayable=1;
+					};
+					id=70;
+					type="C_man_polo_1_F";
+					atlOffset=0.92324829;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={63.534073,-144.98404,16.992506};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="west29";
+						description="Charlie 9";
+						isPlayable=1;
+					};
+					id=71;
+					type="C_man_polo_1_F";
+					atlOffset=1.5145264;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={65.144073,-144.7368,16.992506};
+					};
+					side="West";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="west30";
+						description="Charlie 10";
+						isPlayable=1;
+					};
+					id=72;
+					type="C_man_polo_1_F";
+					atlOffset=1.3285065;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=62;
+			atlOffset=0.95225525;
+		};
+		class Item6
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.0910001,-139.27176,12.041999};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="east1";
+						description="Alpha 1";
+						isPlayable=1;
+					};
+					id=74;
+					type="C_man_polo_1_F";
+					atlOffset=-1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.0785749,3.7107742,9.8581848};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						name="east2";
+						description="Alpha 2";
+						isPlayable=1;
+					};
+					id=75;
+					type="C_man_polo_1_F";
+					atlOffset=143.22302;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5.2605758,-139.97134,9.8581848};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="east3";
+						description="Alpha 3";
+						isPlayable=1;
+					};
+					id=76;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6.883575,-139.76491,9.8341866};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="east4";
+						description="Alpha 4";
+						isPlayable=1;
+					};
+					id=77;
+					type="C_man_polo_1_F";
+					atlOffset=0.4019928;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10.082575,-140.07538,9.8451843};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="east5";
+						description="Alpha 5";
+						isPlayable=1;
+					};
+					id=78;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11.673574,3.1438644,9.8261871};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="east6";
+						description="Alpha 6";
+						isPlayable=1;
+					};
+					id=79;
+					type="C_man_polo_1_F";
+					atlOffset=143.29601;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14.721575,-140.24854,9.8211861};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="east7";
+						description="Alpha 7";
+						isPlayable=1;
+					};
+					id=80;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16.294575,-140.31679,9.809185};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="east8";
+						description="Alpha 8";
+						isPlayable=1;
+					};
+					id=81;
+					type="C_man_polo_1_F";
+					atlOffset=0.025436401;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={19.428576,-139.91805,9.8211861};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="east9";
+						description="Alpha 9";
+						isPlayable=1;
+					};
+					id=82;
+					type="C_man_polo_1_F";
+					atlOffset=0.74151611;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={21.038576,-140.33655,9.8211861};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="east10";
+						description="Alpha 10";
+						isPlayable=1;
+					};
+					id=83;
+					type="C_man_polo_1_F";
+					atlOffset=0.55101013;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=73;
+			atlOffset=-1.5258789e-005;
+		};
+		class Item7
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.227575,-141.09233,11.989185};
+					};
+					side="East";
+					flags=7;
+					class Attributes
+					{
+						name="east11";
+						description="Bravo 1";
+						isPlayable=1;
+					};
+					id=85;
+					type="C_man_polo_1_F";
+					atlOffset=0.062591553;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.215576,2.0599105,9.8051872};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						name="east12";
+						description="Bravo 2";
+						isPlayable=1;
+					};
+					id=86;
+					type="C_man_polo_1_F";
+					atlOffset=143.2856;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={27.397575,-141.40889,9.8051872};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="east13";
+						description="Bravo 3";
+						isPlayable=1;
+					};
+					id=87;
+					type="C_man_polo_1_F";
+					atlOffset=0.07975769;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={29.020575,-141.2701,9.7811852};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="east14";
+						description="Bravo 4";
+						isPlayable=1;
+					};
+					id=88;
+					type="C_man_polo_1_F";
+					atlOffset=0.4473877;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={32.219574,-142.26292,9.7921867};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="east15";
+						description="Bravo 5";
+						isPlayable=1;
+					};
+					id=89;
+					type="C_man_polo_1_F";
+					atlOffset=0.017791748;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={33.81057,0.79892421,9.7731857};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="east16";
+						description="Bravo 6";
+						isPlayable=1;
+					};
+					id=90;
+					type="C_man_polo_1_F";
+					atlOffset=143.29706;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={36.858574,-142.8846,9.7681847};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="east17";
+						description="Bravo 7";
+						isPlayable=1;
+					};
+					id=91;
+					type="C_man_polo_1_F";
+					atlOffset=0.0043945313;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={38.431572,-143.01643,9.7561836};
+					};
+					side="East";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="east18";
+						description="Bravo 8";
+						isPlayable=1;
+					};
+					id=92;
+					type="C_man_polo_1_F";
+					atlOffset=0.0087585449;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={41.565575,-142.84628,9.7681847};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="east19";
+						description="Bravo 9";
+						isPlayable=1;
+					};
+					id=93;
+					type="C_man_polo_1_F";
+					atlOffset=0.59925842;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={43.175575,-143.1443,9.7681847};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="east20";
+						description="Bravo 10";
+						isPlayable=1;
+					};
+					id=94;
+					type="C_man_polo_1_F";
+					atlOffset=0.42076111;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=84;
+			atlOffset=0.062591553;
+		};
+		class Item8
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.224579,-142.93581,12.060184};
+					};
+					side="East";
+					flags=3;
+					class Attributes
+					{
+						name="east21";
+						description="Charlie 1";
+						isPlayable=1;
+					};
+					id=96;
+					type="C_man_polo_1_F";
+					atlOffset=0.94850159;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.212578,0.14136195,9.8761864};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						name="east22";
+						description="Charlie 2";
+						isPlayable=1;
+					};
+					id=97;
+					type="C_man_polo_1_F";
+					atlOffset=144.17151;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={49.394577,-143.98146,9.8761864};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="east23";
+						description="Charlie 3";
+						isPlayable=1;
+					};
+					id=98;
+					type="C_man_polo_1_F";
+					atlOffset=0.94514465;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={51.017578,-144.35936,9.8521843};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="east24";
+						description="Charlie 4";
+						isPlayable=1;
+					};
+					id=99;
+					type="C_man_polo_1_F";
+					atlOffset=1.3307648;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={54.216576,-145.9906,9.8631859};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="east25";
+						description="Charlie 5";
+						isPlayable=1;
+					};
+					id=100;
+					type="C_man_polo_1_F";
+					atlOffset=0.84152222;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={55.807579,-3.1742966,9.8441849};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="east26";
+						description="Charlie 6";
+						isPlayable=1;
+					};
+					id=101;
+					type="C_man_polo_1_F";
+					atlOffset=144.12953;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={58.855576,-146.58737,9.8391838};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="east27";
+						description="Charlie 7";
+						isPlayable=1;
+					};
+					id=102;
+					type="C_man_polo_1_F";
+					atlOffset=0.87251282;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={60.428574,-146.57745,9.8271866};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="east28";
+						description="Charlie 8";
+						isPlayable=1;
+					};
+					id=103;
+					type="C_man_polo_1_F";
+					atlOffset=0.84637451;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={63.562576,-145.3329,9.8391838};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="east29";
+						description="Charlie 9";
+						isPlayable=1;
+					};
+					id=104;
+					type="C_man_polo_1_F";
+					atlOffset=1.4369965;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={65.172577,-145.16289,9.8391838};
+					};
+					side="East";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="east30";
+						description="Charlie 10";
+						isPlayable=1;
+					};
+					id=105;
+					type="C_man_polo_1_F";
+					atlOffset=1.2935028;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=95;
+			atlOffset=0.94850159;
+		};
+		class Item9
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.1270001,-140.50745,5.3309994};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="guer1";
+						description="Alpha 1";
+						isPlayable=1;
+					};
+					id=107;
+					type="C_man_polo_1_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2.11549,1.522969,3.1472473};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						name="guer2";
+						description="Alpha 2";
+						isPlayable=1;
+					};
+					id=108;
+					type="C_man_polo_1_F";
+					atlOffset=143.22301;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5.2974911,-141.06668,3.1472473};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="guer3";
+						description="Alpha 3";
+						isPlayable=1;
+					};
+					id=109;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={6.9204903,-140.71126,3.1232491};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="guer4";
+						description="Alpha 4";
+						isPlayable=1;
+					};
+					id=110;
+					type="C_man_polo_1_F";
+					atlOffset=0.40200806;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10.11949,-140.95682,3.1342468};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="guer5";
+						description="Alpha 5";
+						isPlayable=1;
+					};
+					id=111;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11.710489,2.4232681,3.1152496};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="guer6";
+						description="Alpha 6";
+						isPlayable=1;
+					};
+					id=112;
+					type="C_man_polo_1_F";
+					atlOffset=143.29602;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={14.75849,-140.73788,3.1102486};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="guer7";
+						description="Alpha 7";
+						isPlayable=1;
+					};
+					id=113;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={16.33149,-140.74184,3.0982475};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="guer8";
+						description="Alpha 8";
+						isPlayable=1;
+					};
+					id=114;
+					type="C_man_polo_1_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={19.46549,-140.17426,3.1102486};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="guer9";
+						description="Alpha 9";
+						isPlayable=1;
+					};
+					id=115;
+					type="C_man_polo_1_F";
+					atlOffset=0.66775513;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={21.075491,-140.39983,3.1102486};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="guer10";
+						description="Alpha 10";
+						isPlayable=1;
+					};
+					id=116;
+					type="C_man_polo_1_F";
+					atlOffset=0.51976013;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=106;
+		};
+		class Item10
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.26449,-141.21889,5.2782478};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						name="guer11";
+						description="Bravo 1";
+						isPlayable=1;
+					};
+					id=118;
+					type="C_man_polo_1_F";
+					atlOffset=0.029998779;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24.252491,2.0609024,3.0942497};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						name="guer12";
+						description="Bravo 2";
+						isPlayable=1;
+					};
+					id=119;
+					type="C_man_polo_1_F";
+					atlOffset=143.25354;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={27.43449,-141.25523,3.0942497};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="guer13";
+						description="Bravo 3";
+						isPlayable=1;
+					};
+					id=120;
+					type="C_man_polo_1_F";
+					atlOffset=0.036636353;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={29.057489,-140.74899,3.0702477};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="guer14";
+						description="Bravo 4";
+						isPlayable=1;
+					};
+					id=121;
+					type="C_man_polo_1_F";
+					atlOffset=0.52363586;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={32.256493,-141.33379,3.0812492};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="guer15";
+						description="Bravo 5";
+						isPlayable=1;
+					};
+					id=122;
+					type="C_man_polo_1_F";
+					atlOffset=0.091827393;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={33.847488,1.8146408,3.0622482};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="guer16";
+						description="Bravo 6";
+						isPlayable=1;
+					};
+					id=123;
+					type="C_man_polo_1_F";
+					atlOffset=143.34018;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={36.895485,-141.8065,3.0572472};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="guer17";
+						description="Bravo 7";
+						isPlayable=1;
+					};
+					id=124;
+					type="C_man_polo_1_F";
+					atlOffset=0.031890869;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={38.468491,-141.78699,3.0452461};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="guer18";
+						description="Bravo 8";
+						isPlayable=1;
+					};
+					id=125;
+					type="C_man_polo_1_F";
+					atlOffset=0.036254883;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={41.602486,-141.5536,3.0572472};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="guer19";
+						description="Bravo 9";
+						isPlayable=1;
+					};
+					id=126;
+					type="C_man_polo_1_F";
+					atlOffset=0.58488464;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={43.212486,-141.97762,3.0572472};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="guer20";
+						description="Bravo 10";
+						isPlayable=1;
+					};
+					id=127;
+					type="C_man_polo_1_F";
+					atlOffset=0.40638733;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=117;
+			atlOffset=0.029998779;
+		};
+		class Item11
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.26149,-142.81685,5.349247};
+					};
+					side="Independent";
+					flags=3;
+					class Attributes
+					{
+						name="guer21";
+						description="Charlie 1";
+						isPlayable=1;
+					};
+					id=129;
+					type="C_man_polo_1_F";
+					atlOffset=0.94036865;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={46.249489,0.94174647,3.1652489};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						name="guer22";
+						description="Charlie 2";
+						isPlayable=1;
+					};
+					id=130;
+					type="C_man_polo_1_F";
+					atlOffset=144.16341;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={49.431488,-143.39078,3.1652489};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="guer23";
+						description="Charlie 3";
+						isPlayable=1;
+					};
+					id=131;
+					type="C_man_polo_1_F";
+					atlOffset=0.97264099;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={51.054489,-143.66321,3.1412468};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""RED"";";
+						name="guer24";
+						description="Charlie 4";
+						isPlayable=1;
+					};
+					id=132;
+					type="C_man_polo_1_F";
+					atlOffset=1.3582611;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={54.253487,-144.85402,3.1522484};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="guer25";
+						description="Charlie 5";
+						isPlayable=1;
+					};
+					id=133;
+					type="C_man_polo_1_F";
+					atlOffset=0.91464233;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={55.84449,-1.8300889,3.1332474};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""BLUE"";";
+						name="guer26";
+						description="Charlie 6";
+						isPlayable=1;
+					};
+					id=134;
+					type="C_man_polo_1_F";
+					atlOffset=144.20262;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={58.892487,-145.31987,3.1282463};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="guer27";
+						description="Charlie 7";
+						isPlayable=1;
+					};
+					id=135;
+					type="C_man_polo_1_F";
+					atlOffset=0.92752075;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={60.465485,-145.42966,3.1162491};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""GREEN"";";
+						name="guer28";
+						description="Charlie 8";
+						isPlayable=1;
+					};
+					id=136;
+					type="C_man_polo_1_F";
+					atlOffset=0.90174866;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={63.599487,-144.61034,3.1282463};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="guer29";
+						description="Charlie 9";
+						isPlayable=1;
+					};
+					id=137;
+					type="C_man_polo_1_F";
+					atlOffset=1.4913635;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={65.209488,-144.55418,3.1282463};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+						init="this assignTeam ""YELLOW"";";
+						name="guer30";
+						description="Charlie 10";
+						isPlayable=1;
+					};
+					id=138;
+					type="C_man_polo_1_F";
+					atlOffset=1.2672577;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=128;
+			atlOffset=0.94036865;
+		};
+		class Item12
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12.245,-0.00030517578,42.702};
+			};
+			name="zeus";
+			id=141;
+			type="ModuleCurator_F";
+			atlOffset=138.50999;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="gm";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="GameMaster";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item13
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={20.054001,0.00036621094,42.702};
+				angles[]={0,4.7281318,0};
+			};
+			id=145;
+			type="ModuleCuratorSetAttributesPlayer_F";
+			atlOffset=138.33;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCuratorSetAttributesObject_F_Lock";
+					expression="_this setVariable ['Lock',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCuratorSetAttributesObject_F_Exec";
+					expression="_this setVariable ['Exec',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCuratorSetAttributesObject_F_Fuel";
+					expression="_this setVariable ['Fuel',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCuratorSetAttributesObject_F_UnitPos";
+					expression="_this setVariable ['UnitPos',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCuratorSetAttributesObject_F_Curator";
+					expression="_this setVariable ['Curator',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleCuratorSetAttributesObject_F_Damage";
+					expression="_this setVariable ['Damage',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleCuratorSetAttributesObject_F_Rank";
+					expression="_this setVariable ['Rank',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleCuratorSetAttributesObject_F_RespawnVehicle";
+					expression="_this setVariable ['RespawnVehicle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleCuratorSetAttributesObject_F_Skill";
+					expression="_this setVariable ['Skill',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="ModuleCuratorSetAttributesObject_F_RespawnPosition";
+					expression="_this setVariable ['RespawnPosition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=11;
+			};
+		};
+		class Item14
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={16.49342,0,39.13916};
+			};
+			id=148;
+			type="MartaManager";
+			atlOffset=138.92346;
+		};
+		class Item15
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12.424,0.084838867,49.188};
+			};
+			name="zeusLogged";
+			id=150;
+			type="ModuleCurator_F";
+			atlOffset=138.644;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="#adminLogged";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Adminzeus";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=3;
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item16
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={20.233309,0,49.187988};
+				angles[]={0,4.7281318,0};
+			};
+			id=151;
+			type="ModuleCuratorSetAttributesPlayer_F";
+			atlOffset=138.40022;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCuratorSetAttributesObject_F_Lock";
+					expression="_this setVariable ['Lock',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCuratorSetAttributesObject_F_Exec";
+					expression="_this setVariable ['Exec',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCuratorSetAttributesObject_F_Fuel";
+					expression="_this setVariable ['Fuel',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCuratorSetAttributesObject_F_UnitPos";
+					expression="_this setVariable ['UnitPos',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCuratorSetAttributesObject_F_Curator";
+					expression="_this setVariable ['Curator',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ModuleCuratorSetAttributesObject_F_Damage";
+					expression="_this setVariable ['Damage',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ModuleCuratorSetAttributesObject_F_Rank";
+					expression="_this setVariable ['Rank',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="ModuleCuratorSetAttributesObject_F_RespawnVehicle";
+					expression="_this setVariable ['RespawnVehicle',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="ModuleCuratorSetAttributesObject_F_Skill";
+					expression="_this setVariable ['Skill',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="ModuleCuratorSetAttributesObject_F_RespawnPosition";
+					expression="_this setVariable ['RespawnPosition',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=11;
+			};
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=2;
+		};
+		class Links
+		{
+			items=2;
+			class Item0
+			{
+				linkID=0;
+				item0=145;
+				item1=141;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=151;
+				item1=150;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
+	};
+};

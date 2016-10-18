@@ -1,0 +1,11 @@
+class CfgFunctions
+{
+	#include "functions\base.hpp"
+};
+
+#include "ui\define.hpp"
+#include "ui\zeusVote.hpp"
+#include "ui\campaignSelect.hpp"
+#include "ui\inputBox.hpp"
+
+RespawnOnStart = -1;

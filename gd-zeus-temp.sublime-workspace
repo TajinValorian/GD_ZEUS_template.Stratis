@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"join",
+				"joinSilent"
+			],
+			[
+				"assignAs",
+				"assignAsTurret"
+			],
+			[
+				"assi",
+				"assignedCommander"
+			],
+			[
+				"assign",
+				"assignAsDriver"
+			],
+			[
+				"swit",
+				"switch	swicth..."
+			],
+			[
+				"assignedC",
+				"assignedCargo"
+			],
+			[
+				"assigned",
+				"assignedDriver"
+			],
+			[
+				"assignedT",
+				"assignedTarget"
+			],
+			[
+				"switc",
+				"switchMove"
+			],
+			[
+				"distace",
+				"distanceSqr"
+			],
+			[
+				"has",
+				"hasInterface"
+			],
+			[
+				"getPos",
+				"getPosATL"
+			],
+			[
+				"vector",
+				"vectorDiff"
+			],
+			[
+				"simu",
+				"simulationEnabled"
+			],
+			[
+				"_s",
+				"_sqr2"
+			],
+			[
+				"_lo",
+				"_lookdist"
+			],
+			[
+				"_loo",
+				"_lookpos"
+			],
+			[
+				"screen",
+				"screenToWorld"
+			],
+			[
+				"mision",
+				"missionNamespace"
+			],
+			[
+				"distance",
+				"distance2D"
+			],
+			[
+				"curso",
+				"cursorObject"
+			],
+			[
+				"diag",
+				"diag_tickTime"
+			],
+			[
+				"publ",
+				"publicVariableServer"
+			],
+			[
+				"getPo",
+				"getPosATL"
+			],
+			[
+				"exi",
+				"exitWith"
+			],
+			[
+				"drawLine",
+				"drawLine3D"
+			],
+			[
+				"sod",
+				"so_drawIcons"
+			],
+			[
+				"po",
+				"po_drawIcons"
+			],
+			[
+				"_play",
+				"_playergroups"
+			],
+			[
+				"unassign",
+				"unassignVehicle"
+			],
+			[
+				"spawn",
+				"spawnmarker"
+			],
+			[
+				"getmar",
+				"getMarkerSize"
+			],
+			[
+				"getMar",
+				"getMarkerPos"
+			],
+			[
+				"repai",
+				"repairCount"
+			],
+			[
+				"remote",
+				"remoteExec"
+			],
+			[
+				"backpa",
+				"backpackItems"
+			],
+			[
+				"mod",
+				"modelToWorldVisual"
+			],
+			[
+				"hide",
+				"hideObject"
+			],
+			[
+				"linein",
+				"lineIntersectsObjs"
+			],
+			[
+				"clearWay",
+				"clearWayVehicles"
+			],
+			[
+				"isE",
+				"isEqualTo"
+			],
+			[
+				"_forE",
+				"_forEachIndex"
+			],
+			[
+				"buil",
+				"buildingPos"
+			],
+			[
+				"neare",
+				"nearestBuilding"
+			],
+			[
+				"vectorM",
+				"vectorMultiply"
+			],
+			[
+				"mission",
+				"missionNamespace"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 36.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: Define script parameter"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 172.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/115/AppData/Local/Temp/scp02729/html/projekte/ArmA/GD Zeus temp/initPlayerServer.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp28003/html/projekte/ArmA/GD Zeus temp/ui/zeusVote.hpp",
+		"/C/Users/115/AppData/Local/Temp/scp11593/html/projekte/ArmA/GD Zeus temp/ui/campaignSelect.hpp",
+		"/C/Users/115/AppData/Local/Temp/scp33314/html/projekte/ArmA/GD Zeus temp/functions/server/preinit.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp02337/html/projekte/ArmA/GD Zeus temp/initPlayerLocal.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp02427/html/projekte/ArmA/GD Zeus temp/initServer.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp30280/html/projekte/ArmA/GD Zeus temp/functions/client/fn_handleUI.sqf",
+		"/C/reg/ArmA/GD-zeus-temp/initServer.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp49607/html/projekte/ArmA/GD Zeus temp/functions/base.hpp",
+		"/C/Users/115/AppData/Local/Temp/scp39108/html/projekte/ArmA/GD Zeus temp/functions/client/fn_blockESC.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp39920/html/projekte/ArmA/GD Zeus temp/functions/base.hpp",
+		"/C/Users/115/AppData/Local/Temp/Temp1_Flare-Fix-Script-ARMA3-version-1.0.zip/Flare_Fix_DEMO.Stratis/init.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_19.Tanoa/scripts/server/game/save_manager.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_19.Tanoa/classnames_extension.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_19.Tanoa/scripts/server/sector/manage_sectors.sqf",
+		"/E/ArmA3/Squad_Ops/notes.txt",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_19.Tanoa/scripts/shared/classnames.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/shared/classnames.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/shared/functions/F_libSpawnVehicle.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/server/sector/manage_one_sector.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_19.Tanoa/scripts/server/sector/manage_one_sector.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/shared/functions/F_getGroupType.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/classnames_extension.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/server/init_server.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/init.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/R3F_LOG/addons_config/A3_vanilla.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/R3F_LOG/addons_config/A3_vanilla/Building.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/shared/set_skill.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/server/base/startgame.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/R3F_LOG/config.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/loadouts/init_loadouts.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/init_server.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/shared/functions/F_opforCap.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/sector/manage_sectors.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/shared/functions/F_getCorrectedSectorRange.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/sector/manage_one_sector.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/server/patrols/manage_one_patrol.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/scripts/server/sector/wait_to_spawn_sector.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/shared/functions/F_getUnitsCount.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/shared/functions/F_lessLoadedHC.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/arsenal.sqf",
+		"/E/ArmA3/Projects/sowens/Vietnam_Lib0924_AJ_02.Tanoa/whitelist.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/gameplay_constants.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/classnames_extension.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/description.ext",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/ai/add_defense_waypoints.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/ai/troup_transport.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/ai/patrol_ai.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/ai/add_civ_waypoints.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/sector/lose_sectors.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/sector/attack_in_progress_sector.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/base/startgame.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/battlegroup/spawn_battlegroup.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/remotecall/remote_call_battlegroup.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/game/fucking_set_fog.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/game/playtime.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/ai/building_defence_ai.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/server/game/zeus_synchro.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/actions/action_manager.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/markers/sector_manager.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/init_markers.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/manage_weather.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/offload_diag.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/stop_renegade.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/synchronise_vars.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/secondary_jip.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/broadcast_squad_colors.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/misc/disable_remote_sensors.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/scripts/client/actions/transfer_loadout.sqf",
+		"/E/ArmA3/GASEALS/ZEUS_Template_1stEED_3.5.Altis/init.sqf",
+		"/E/ArmA3/GASEALS/ZEUS_Template_1stEED_3.5.Altis/include/functions.sqf",
+		"/E/ArmA3/GASEALS/ZEUS_Template_1stEED_3.5.Altis/include/cursorTarget.sqf",
+		"/E/ArmA3/GASEALS/ZEUS_Template_1stEED_3.5.Altis/include/dedicated.sqf",
+		"/E/ArmA3/GASEALS/ZEUS_Template_1stEED_3.5.Altis/include/player.sqf",
+		"/E/ArmA3/Squad_Ops/description.ext",
+		"/E/ArmA3/Squad_Ops/fnc/client/fn_handleOverlay.sqf",
+		"/E/ArmA3/Squad_Ops/fnc/client/fn_attachToFix.sqf",
+		"/E/ArmA3/Squad_Ops/fnc/functions.hpp",
+		"/E/ArmA3/Squad_Ops/onPlayerRespawn.sqf",
+		"/E/ArmA3/Squad_Ops/fnc/client/fn_clientSettings.sqf",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_16.Tanoa/GREUH/GREUH_config.sqf",
+		"/C/reg/ArmA/attachTo_in_vehicle-fix.sqf",
+		"/E/ArmA3/Squad_Ops/stringtable.xml",
+		"/C/Users/115/Desktop/misc.ext",
+		"/E/ArmA3/Squad_Ops/hpp/functions.hpp",
+		"/E/ArmA3/Squad_Ops/squad_ops.sublime-project",
+		"/E/ArmA3/Squad_Ops/1stEEDLiberation_Tanoa_15.Tanoa/stringtable.xml",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/onPlayerRespawn.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/scripts/client/actions/transfer_loadout.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/scripts/client/actions/action_manager.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/scripts/client/actions/open_arsenal.sqf",
+		"/E/ArmA3/ATaC/script/notes.txt",
+		"/C/reg/ArmA/Zenophon's Framework 7-10-16/Shell/Zen_FrameworkFunctions/Zen_MathFunctions/Zen_FindInRange.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/scripts/shared/functions/F_spartanScan.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/scripts/shared/functions/F_spawnCivilians.sqf",
+		"/E/ArmA3/ArmA 3/MPMissions/1stEED_sandbox_v1_01.Altis/init.sqf",
+		"/E/ArmA3/1stEED/MCC_Template_1stEED_3.4.Zargabad/init.sqf",
+		"/E/ArmA3/ArmA 3/MPMissions/1stEED_sandbox_v1_01.Altis/functions/db/fn_playerInit.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/scripts/shared/functions/F_getLoadout.sqf",
+		"/E/ArmA3/1stEED/MCC_Template_1stEED_3.4.Zargabad/include/functions.sqf",
+		"/E/ArmA3/functioncollection.sqf",
+		"/D/cz75_breachingdoors.sqf",
+		"/D/T-Helmetcam_Test.Stratis/helmetcam.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp05364/html/projekte/ArmA/Bpos.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp04850/html/strobe.sqf",
+		"/D/Poseidon/temp.sqf",
+		"/E/ArmA3/GASEALS/@gas_server/functions.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp52513/html/projekte/ArmA/fired.sqf",
+		"/C/reg/ArmA/1stEEDLiberation_Tanoa_05.Tanoa/gameplay_constants.sqf",
+		"/C/Users/115/AppData/Local/Temp/scp43982/arma3/infiSTAR_config.sqf",
+		"/E/ArmA3/functions_f/a3/functions_f/Strategic/fn_setUnitInsignia.sqf",
+		"/E/ArmA3/_script/insignia_tex.sqf",
+		"/C/Users/115/Desktop/doors/sushi_scripts/breach/fncs/fn_breachCheckDoor.sqf",
+		"/C/Users/115/Desktop/doors/automatedDoors.sqf",
+		"/C/reg/ArmA/vr_CQB0.VR/init.sqf",
+		"/C/reg/ArmA/vr_CQB0.VR/actions/open_doors.sqf",
+		"/C/reg/ArmA/vr_CQB0.VR/actions/restore_pos.sqf",
+		"/C/reg/ArmA/vr_CQB0.VR/mission.sqm",
+		"/C/reg/ArmA/vr_CQB0.VR/actions/store_pos.sqf",
+		"/C/reg/ArmA/vr_CQB0.VR/actions/init_seq.sqf",
+		"/C/reg/ArmA/vr_CQB0.VR/actions/restore_seq.sqf",
+		"/C/Users/115/Desktop/doors/sushi_scripts/breach/fncs/fn_breachGetBldDoorArr.sqf",
+		"/C/Users/115/Desktop/doors/sushi_scripts/core/fncs/fn_showStatus.sqf",
+		"/C/Users/115/Desktop/doors/sushi_scripts/core/fncs/fn_preInit.sqf",
+		"/C/Users/115/Desktop/doors/doorsAltis.sqf",
+		"/C/Users/115/AppData/Roaming/Mozilla/Firefox/Profiles/6c4h2il7.default/searchplugins/BIS.xml",
+		"/C/Users/115/AppData/Roaming/Mozilla/Firefox/Profiles/6c4h2il7.default/searchplugins/super-user.xml",
+		"/E/ArmA3/functions_f/a3/functions_f/Params/fn_getParamValue.sqf"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_vehtospawn",
+			"militia_vehicles",
+			"grouptype",
+			"static_vehicles",
+			"static_vehicles_extension",
+			"static",
+			"_x",
+			"_grp) ",
+			"<_grp",
+			"F_opforCap",
+			"eed_initDoors",
+			"po_",
+			"arsenal",
+			"player.sqf",
+			"configFile"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_this",
+			"so_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true
+}

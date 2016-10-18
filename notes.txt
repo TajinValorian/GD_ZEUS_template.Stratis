@@ -1,0 +1,130 @@
+http://www.armaholic.com/page.php?id=28041 (singleplayer / or zeus)
+
+https://forums.bistudio.com/topic/195346-release-arma-3-custom-chat-commands/
+https://community.bistudio.com/wiki/currentChannel
+
+
+-> GD Zeus Framework
++ Parameters (maybe ingame instead of the regular ones)
+	- UPSMON
+	- Revive ?
+	- No Save / New Session / Old Session (Password)
+	- Third Person (on / off / vehicle)
+	- Block Chat
+	- Record Session ???
+	- RotorLib ?
+	- Skillsystem / Role selection / none
+	- ACE settings
+
++ Things to save
+	Personal (UID)
+	- Equipment
+	- Position
+	- Health (ACE ?)
+
+	Public
+	- FOBs
+	- Camps
+	- Storage
+	- Time
+	- Resources ???
+	- Side relations
+	- Markers (Zeus)
+	- Tasks
+	- Journal entries
+
++ Features
+	- Gamemaster interface (how to select ?)
+	- Mod checker & Message
+	- POW
+	- Preprogrammed TFAR
+	- Flatten Grass ?
+	- Flare Fix
+	- Takedown
+	- Crate transfer
+
+
+
+
+
+
+1. Missionstart	- ok
+2. neutral spawn (initial position) - partial
+3. GM vote - ok
+4. GM chooses between new or saved game - todo
+5. Place spawnpoint (if not existing) - todo
+6. Softrespawn everyone - todo
+
+...
+
+- GM lost
+- optional gamefreeze ? (players & friendlies rooted in place and set captive) + no saving if no GM present (timestamp of last save always visible!)
+- GM vote shows up as action
+- New GM voted
+- Passwordcheck (or admin override)
+- Wrong password -> back to no GM
+
+
+
+
+taskManagement_markers2D
+taskManagement_markers3D
+taskManagement_propagate
+taskManagement_drawDist
+
+showGroupIndicator
+showSquadRadar
+showHUD
+
+CfgUnitInsignia
+
+
+
+
+VTN mod ?
+
+
+
+
+
+- - - - -
+Random things:
+
+
+
+
+
+
+
+
+checkVisibility
+
+In Arma 3 this would create scenarios UI
+findDisplay 46 createMissionDisplay "";
+
+
+FU	-	player switchMove "acts_briefing_sb_in";
+
+
+
+
+
+
+
+
+
+
+https://forums.bistudio.com/topic/192009-release-arma-3-mission-skeleton-version-13-includes-mission-build-script/
+?? A3MS ?? Arma 3 Mission Skeleton
+
+
+
+
+
+
+
+
+http://www.armaholic.com/page.php?id=31728
+
+_x switchMove "Acts_AidlPsitMstpSsurWnonDnon01";    //initial animation: sitting down and tied up
+http://pastebin.com/Y4c5b9Zv
