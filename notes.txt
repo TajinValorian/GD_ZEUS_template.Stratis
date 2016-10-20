@@ -42,6 +42,7 @@ https://community.bistudio.com/wiki/currentChannel
 	- Flare Fix
 	- Takedown
 	- Crate transfer
+	- Simple injured AI script ?
 
 
 
@@ -90,12 +91,62 @@ VTN mod ?
 - - - - -
 Random things:
 
+BIS_fnc_initDisplay
 
+>> Displays codes:
+3		RscDisplayOptions / RscDisplayOptionsInGame
+5		RscDisplayOptionsVideo
 
+12		RscDisplayMainMap		Map
+24		RscDisplayChat			Chat			(101)
+31		RscDisplayLogin			User selection ?
+46		RscDisplayMission		default display
+47		RscDisplayIntro
+48		RscDisplayOutro
+49		RscDisplayInterrupt / RscDisplayMPInterrupt
+54		InsertMarker			Create Marker	(101 text, 103 channel,)
+55		RscDisplayVoiceChat		VoiceChat		(101)
+56		RscDisplayDebug			DebugConsole
+57		RscDisplayHintC			HintC
+58		RscDisplayMissionEnd / RscDisplayRespawn
+63		RscDisplayChannel		Channel			(101)
+106		RscDisplayGear			???
+122		RscDisplayMissionLoad	Loadscreen
+125		RscDisplayEditDiaryRecord
+129		RscDisplayDiary
 
+133		RscMiniMap				Minimap
 
+170		RscDisplayPurchaseNotification			!!!
+174		RscDisplayDLCContentBrowser
 
+173		RscSlingLoadAssistant
+175		RscDisplayMPScoreTable
+300		Optics ???
+303		RscStanceInfo
+305		RscStaminaBar
+312		RscDisplayCurator		Zeus
+314		RscDisplayCamera
+505		RscDisplayORBAT			ORBAT
+506		RscDisplayStrategicMap
+602		RscDisplayInventory		Inventory		(6321 GroundTab, 6401 SoldierTab, 632 GroundContainer, 640 SoldierContainer, )
+632		RscDisplayTeamSwitch
+999		RscGUIEditor
+1166	RscGroupIndicator
+2928	RscDisplayConfigViewer
+2929	RscFunctionsViewer
+3030	RscConfigEditor_Main
+4000	RscClouds	?
 
+RscDisplayArsenal
+RscDisplayGarage
+
+RscDisplayFiringRangeBoard
+RscDisplayTargetBoard
+
+BIS_RscMissionScreen ?
+
+https://forums.bistudio.com/topic/191737-updated-all-in-one-config-dumps/
 
 checkVisibility
 
@@ -128,3 +179,11 @@ http://www.armaholic.com/page.php?id=31728
 
 _x switchMove "Acts_AidlPsitMstpSsurWnonDnon01";    //initial animation: sitting down and tied up
 http://pastebin.com/Y4c5b9Zv
+
+
+
+player action ["SwitchWeapon", player, player, 99];
+>> Puts the weapon on the back.
+
+player action ["WeaponOnBack", player];
+>> Lowers the weapon (despite the name of the action).
