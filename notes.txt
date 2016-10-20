@@ -187,3 +187,15 @@ player action ["SwitchWeapon", player, player, 99];
 
 player action ["WeaponOnBack", player];
 >> Lowers the weapon (despite the name of the action).
+
+
+
+
+Possible fix for arsenal restrictions:
+- Arsenal action
+- clear loadout
+- open arsenal
+- sleep 1
+- restore loadout
+-> Profit ?!
+
