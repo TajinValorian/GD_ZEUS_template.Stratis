@@ -38,11 +38,32 @@ https://community.bistudio.com/wiki/currentChannel
 	- Mod checker & Message
 	- POW
 	- Preprogrammed TFAR
+		- Respawn & Arsenal > Apply preset channels
+		- Inventory close > Notify when using radio from different side
+		- https://github.com/michail-nikolaev/task-force-arma-3-radio/wiki/API%3A-Variables
+		- [MyID, EventName, Code, Object] call TFAR_fnc_addEventHandler;
+			- OnRadiosReceived [unit,radioarray]
+		- [(call TFAR_fnc_activeLrRadio) select 0, (call TFAR_fnc_activeLrRadio) select 1, 4] call TFAR_fnc_setAdditionalLrChannel;
+		- [(call TFAR_fnc_activeLrRadio) select 0, (call TFAR_fnc_activeLrRadio) select 1, 1] call TFAR_fnc_setAdditionalLrStereo;
+			- [0 both, 1 left, 2 right]
+		- [(call TFAR_fnc_activeSwRadio), 2] call TFAR_fnc_setAdditionalSwChannel;
+		- [(call TFAR_fnc_ActiveSWRadio), 2] call TFAR_fnc_setAdditionalSwStereo;
+		// LR radio - channel 1
+		- [(call TFAR_fnc_activeLrRadio), 1, "56.2"] call TFAR_fnc_SetChannelFrequency;
+		// SW radio - channel 1
+		- [(call TFAR_fnc_activeSwRadio), 1, "84.3"] call TFAR_fnc_SetChannelFrequency;
+
+		- Base settings:
+		tf_no_auto_long_range_radio = true;
+
+
+
 	- Flatten Grass ?
 	- Flare Fix
 	- Takedown
 	- Crate transfer
 	- Simple injured AI script ?
+	- Flashlight handler (auto turnon at night, while moving or fighting, if noNVG)
 
 
 
@@ -199,3 +220,11 @@ Possible fix for arsenal restrictions:
 - restore loadout
 -> Profit ?!
 
+
+
+Interesting Links:
+
+http://www.armaholic.com/page.php?id=23507			Real Weather script
+http://www.armaholic.com/page.php?id=31625			Marker Filter System
+
+https://forums.bistudio.com/topic/190815-release-jboy-combat-up-down-script/	duck for cover?
